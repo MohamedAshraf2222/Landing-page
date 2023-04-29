@@ -81,6 +81,7 @@ const Landing = () => {
     }
   }
   return (
+
     <>
       <div className="flex mt-12 ml-20 mr-12 justify-between items-center">
         <Navbar />
@@ -142,7 +143,7 @@ const Landing = () => {
               <p className="text-[#6B6B6B] text-[10px] leading-[16px]">
                 Total Employees
               </p>
-            </div>
+            </div> 
           </div>
         </div>
         {/* <img className="flex-1" src={HeroIMG} alt="Hero" /> */}
