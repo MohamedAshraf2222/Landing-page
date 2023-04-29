@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="text-base font-semibold leading-[38px] text-[#18a7b9] tracking-[-0.06em]">
         CONSTRUCTION
       </div>
-      <ul className="relative nav-items-bg flex text-[10px] pr-4 gap-9 text-[#313131]">
+      <ul className="nav-items-bg flex text-[10px] pr-4 gap-9 text-[#313131]">
         <li className={`hover:text-[#000] hover:cursor-pointer ${clicked? 'active':''}`} 
             onClick={()=> {setClicked(true); setClicked2(false); setClicked3(false); setClicked4(false);}}
             >Home</li>

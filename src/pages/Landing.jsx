@@ -83,17 +83,13 @@ const Landing = () => {
   return (
 
     <>
-      <div className="flex mt-12 ml-20 mr-12 justify-between items-center">
+      <div className="flex mt-4 ml-20 mr-12 justify-between items-center">
         <Navbar />
-        <img
-          className="h-[80vh] absolute -z-10 top-[50px] right-[49px] rounded-[5px] rounded-bl-[40%]"
-          src={HeroIMG}
-          alt="hero"
-        />
+
         <div className="absolute bg-[#c9e7ff] opacity-[0.4] -z-20 top-[90px] right-[32%] rounded-[5px] rounded-tl-[106.5px] h-28 w-32"></div>
       </div>
-      <div className="flex ml-[84px] mt-12">
-        <div className="flex-[0.45] flex flex-col gap-8">
+      <div className="flex mx-auto max-w-[90%] gap-5 mt-4 justify-between">
+        <div className="flex-[0.80] ml-[30px] flex flex-col gap-8">
           <h1 className="font-[700] text-[38px] text-[#313131] leading-[120%] tracking-[-0.04em]">
             <span className="font-[700] text-[#18A7B9]"> Masters</span> of
             Consistency and{" "}
@@ -146,6 +142,11 @@ const Landing = () => {
             </div> 
           </div>
         </div>
+        <img
+          className="max-w-[45%] max-h-[85vh] -z-10 top-[50px] right-[49px] rounded-[5px] rounded-bl-[40%]"
+          src={HeroIMG}
+          alt="hero"
+        />
         {/* <img className="flex-1" src={HeroIMG} alt="Hero" /> */}
       </div>
       <div className="flex justify-between items-center w-[80%] mx-auto mt-[100px]">
