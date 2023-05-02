@@ -81,132 +81,129 @@ const Landing = () => {
     }
   }
   return (
-
     <>
-      <div className="flex mt-4 ml-20 mr-12 justify-between items-center">
+      <div className="flex mt-[70px] ml-[136px] justify-between items-center relative">
         <Navbar />
-
-        <div className="absolute bg-[#c9e7ff] opacity-[0.4] -z-20 top-[90px] right-[32%] rounded-[5px] rounded-tl-[106.5px] h-28 w-32"></div>
+        <div className="absolute bg-[#c9e7ff] opacity-[0.4] -z-20 top-[59px] right-[555px] rounded-[5px] rounded-tl-[106.5px] h-[213px] w-[238px]"></div>
+        <img
+          className="absolute max-h-[95vh] -z-10 w-[42%] top-[-20px] right-[49px] rounded-[5px] rounded-bl-[40%]"
+          src={HeroIMG}
+          alt="hero"
+        />
       </div>
-      <div className="flex mx-auto max-w-[90%] gap-5 mt-4 justify-between">
-        <div className="flex-[0.80] ml-[30px] flex flex-col gap-8">
-          <h1 className="font-[700] text-[38px] text-[#313131] leading-[120%] tracking-[-0.04em]">
+      <div className="flex mx-auto ml-[156px] gap-5 justify-between items-center mt-[118px]">
+        <div className="flex-[0.52] flex flex-col gap-8">
+          <h1 className="font-[700] max-w-[650px] text-[64px] text-[#313131] leading-[120%] tracking-[-0.04em]">
             <span className="font-[700] text-[#18A7B9]"> Masters</span> of
             Consistency and{" "}
-            <span className="font-[700] text-[#18A7B9]">Quality</span>.
+            <span className="font-[]700 text-[#18A7B9]">Quality</span>.
           </h1>
-          <p className="text-[#6B6B6B] text-[10px] leading-[16px] ">
+          <p className="text-[#6B6B6B] max-w-[540px] text-[18px] leading-[28px] ">
             Blessing welcomed ladyship she met humoured sir breeding her. Six
             curiosity day assurance bed necessary.
           </p>
           <div className="flex gap-5">
-            <button className="relative btn-shadow bg-[#18a7b9] rounded-[5px] rounded-tl-[40px] rounded-br-[40px] text-white text-[12px] pt-[5px] pb-[5px] pl-[40px] pr-[40px] cursor-pointer">
+            <button className="relative btn-shadow bg-[#18a7b9] rounded-[5px] rounded-tl-[40px] rounded-br-[40px] text-white text-[17px] leading-[20px] tracking-[-0.5px] pt-[22px] pb-[22px] pl-[77px] pr-[77px] cursor-pointer">
               Explore
             </button>
-            <button className="rounded-[5px] drop-shadow rounded-tl-[40px] rounded-br-[40px] text-[#18A7B9] text-[12px] pt-[5px] pb-[5px] pl-[30px] pr-[30px] cursor-pointer border border-solid border-[#18A7B9]">
+            <button className="rounded-[5px] drop-shadow rounded-tl-[40px] rounded-br-[40px] text-[#18A7B9] text-[17px] leading-[20px] tracking-[-0.5px] pt-[22px] pb-[22px] pl-[77px] pr-[77px] cursor-pointer border border-solid border-[#18A7B9]">
               Contact Us
             </button>
             <img
-              className="absolute w-[400px] -z-10 left-0"
+              className="absolute w-[630px] h-[608px] -z-10 left-0"
               src={VectorIMG}
               alt=""
             />
           </div>
-          <div className="flex justify-around">
+          <div className="flex gap-[52px]">
             <div className="flex-col justify-center relative">
-              <div className="absolute w-5 h-3 bg-[#FE8432] -z-10 rounded-circle rotate-[-50deg] top-[-4px] left-[-5px]"></div>
-              <p className="text-[#313131] font-semibold text-[18px] leading-[20px]">
+              <div className="absolute w-[35px] h-[20px] bg-[#FE8432] -z-10 rounded-circle rotate-[-50deg] top-[-4px] left-[-5px]"></div>
+              <p className="text-[#313131] font-semibold text-[40px] leading-[100%]">
                 25,356
               </p>
-              <p className="text-[#6B6B6B] text-[10px] leading-[16px]">
+              <p className="text-[#6B6B6B] text-[20px] leading-[130%]">
                 Projects Done
               </p>
             </div>
             <div className="flex-col justify-center relative">
-              <div className="absolute w-5 h-3 bg-[#18A7B9] -z-10 rounded-circle rotate-[-50deg] top-[-4px] left-[-5px]"></div>
-              <p className="text-[#313131] font-semibold text-[18px] leading-[20px]">
+              <div className="absolute w-[35px] h-[20px] bg-[#18A7B9] -z-10 rounded-circle rotate-[-50deg] top-[-4px] left-[-5px]"></div>
+              <p className="text-[#313131] font-semibold text-[40px] leading-[100%]">
                 15,200
               </p>
-              <p className="text-[#6B6B6B] text-[10px] leading-[16px]">
+              <p className="text-[#6B6B6B] text-[20px] leading-[130%]">
                 Buildings Done
               </p>
             </div>
             <div className="flex-col justify-center relative">
-              <div className="absolute w-5 h-3 bg-[#42B918] -z-10 rounded-circle rotate-[-50deg] top-[-4px] left-[-5px]"></div>
-              <p className="text-[#313131] font-semibold text-[18px] leading-[20px]">
+              <div className="absolute w-[35px] h-[20px] bg-[#42B918] -z-10 rounded-circle rotate-[-50deg] top-[-4px] left-[-5px]"></div>
+              <p className="text-[#313131] font-semibold text-[40px] leading-[100%]">
                 350+
               </p>
-              <p className="text-[#6B6B6B] text-[10px] leading-[16px]">
+              <p className="text-[#6B6B6B] text-[20px] leading-[130%]">
                 Total Employees
               </p>
-            </div> 
+            </div>
           </div>
         </div>
-        <img
-          className="max-w-[45%] max-h-[85vh] -z-10 top-[50px] right-[49px] rounded-[5px] rounded-bl-[40%]"
-          src={HeroIMG}
-          alt="hero"
-        />
-        {/* <img className="flex-1" src={HeroIMG} alt="Hero" /> */}
       </div>
-      <div className="flex justify-between items-center w-[80%] mx-auto mt-[100px]">
-        <img className="h-[24px] w-[70px]" src={Logo1} alt="logo" />
-        <img className="h-[24px] w-[70px]" src={Logo2} alt="logo" />
-        <img className="h-[24px] w-[75px]" src={Logo3} alt="logo" />
-        <img className="h-[24px] w-[50px]" src={Logo4} alt="logo" />
-        <img className="h-[24px] w-[75px]" src={Logo5} alt="logo" />
+      <div className="flex justify-between items-center w-[80%] mx-auto mt-[147px]">
+        <img className="h-[25px] w-[137px]" src={Logo1} alt="logo" />
+        <img className="h-[24px] w-[122px]" src={Logo2} alt="logo" />
+        <img className="h-[20px] w-[120px]" src={Logo3} alt="logo" />
+        <img className="h-[32px] w-[95px]" src={Logo4} alt="logo" />
+        <img className="h-[32px] w-[132px]" src={Logo5} alt="logo" />
       </div>
-      <div className="flex gap-20 justify-center items-center w-[80%] mx-auto mt-[5rem] mb-[3rem]">
-        <div className="flex flex-col flex-[1] gap-3">
-          <p className="text-[#6B6B6B] text-[10px] leading-[16px] ">
+      <div className="flex gap-20 justify-center items-center w-[80%] mx-auto mt-[220px] mb-[100px]">
+        <div className="flex flex-col flex-[1] gap-[30px]">
+          <p className="text-[#6B6B6B] text-[18px] leading-[28px]">
             Blessing welcomed ladyship she met humoured sir breeding her. Six
             curiosity day assurance bed necessary.
           </p>
-          <button className="relative btn-shadow bg-[#18a7b9] rounded-[5px] rounded-tl-[40px] rounded-br-[40px] text-white text-[12px] pt-[5px] pb-[5px] pl-[40px] pr-[40px] cursor-pointer max-w-[50%]">
+          <button className="relative btn-shadow bg-[#18a7b9] rounded-[5px] rounded-tl-[40px] rounded-br-[40px] text-white text-[17px] leading-[20px] pt-[22px] pb-[22px] pl-[77px] pr-[77px] cursor-pointer max-w-[50%]">
             Explore
           </button>
         </div>
-        <p className="font-[600] text-[26px] text-[#313131] leading-[120%] tracking-[-0.04em] flex-[1]">
+        <p className="font-[600] text-[54px] leading-[120%] text-[#313131] flex-[1]">
           Why Choose us for best construction experience
         </p>
       </div>
-      <div className="flex justify-center items-center w-[80%] mx-auto">
-        <div className="flex-[1]">
-          <img className="w-[280px]" src={content} alt="contentImg" />
+      <div className="flex justify-center items-center gap-[65px] w-[89%] mx-auto">
+        <div className="flex-1">
+          <img className="w-[585px] h-[850px]" src={content} alt="contentImg" />
         </div>
-        <div className="flex flex-[1] flex-col justify-around gap-16">
-          <div className="flex justify-center relative gap-6">
-            <div>
-              <img className="w-[91px]" src={Rectangle1} alt="" />
+        <div className="flex flex-[1.2] flex-col justify-around gap-16">
+          <div className="flex justify-center relative gap-[63px]">
+            <div className="flex-[0.4]">
+              <img src={Rectangle1} alt="" />
             </div>
-            <p className="absolute top-[-10px] left-[18px] text-[#313131] font-semibold text-[36px] leading-[20px]">
+            <p className="absolute top-[-30px] left-[42px] text-[#313131] font-semibold text-[72px] leading-[100%]">
               01
             </p>
-            <p className="text-[#6B6B6B] text-[10px] leading-[16px]">
+            <p className="flex-[3] text-[#6B6B6B] text-[18px] leading-[28px]">
               And residence for met the estimable disposing. Mean if he they
               been no hold mr. Is at much do made took held help.
             </p>
           </div>
-          <div className="flex justify-center relative gap-6">
-            <div>
+          <div className="flex justify-center relative gap-[63px]">
+            <div className="flex-[0.4]">
               <img src={Rectangle2} alt="" />
             </div>
-            <p className="absolute top-[-10px] left-[18px] text-[#313131] font-semibold text-[36px] leading-[20px]">
+            <p className="absolute top-[-30px] left-[42px] text-[#313131] font-semibold text-[72px] leading-[100%]">
               02
             </p>
-            <p className="text-[#6B6B6B] text-[10px] leading-[16px]">
+            <p className="flex-[3] text-[#6B6B6B] text-[18px] leading-[28px]">
               Up maids me an ample stood given. Certainty say suffering his him
               collected intention promotion.
             </p>
           </div>
-          <div className="flex justify-center relative gap-6">
-            <div>
+          <div className="flex justify-center relative gap-[63px]">
+            <div className="flex-[0.4]">
               <img src={Rectangle3} alt="" />
             </div>
-            <p className="absolute top-[-10px] left-[18px] text-[#313131] font-semibold text-[36px] leading-[20px]">
+            <p className="absolute top-[-30px] left-[42px] text-[#313131] font-semibold text-[72px] leading-[100%]">
               03
             </p>
-            <p className="text-[#6B6B6B] text-[10px] leading-[16px]">
+            <p className="flex-[3] text-[#6B6B6B] text-[18px] leading-[28px]">
               Good draw knew bred ham busy his hour. Ask agreed answer rather
               joy nature admire wisdom.
             </p>
@@ -217,7 +214,7 @@ const Landing = () => {
         title="Our Best Engineers"
         subTitle="Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed necessary."
       />
-      <div className="mt-10 flex gap-5 justify-center mb-16">
+      <div className="flex gap-5 justify-center mb-[140px]">
         <EngineerCard
           name="Chris Evans"
           email="ChrisEvans@const.com"
@@ -235,16 +232,16 @@ const Landing = () => {
         />
       </div>
       <div
-        className={`flex flex-col justify-center items-center mx-auto bg-message h-[90vh]`}
+        className={`flex flex-col items-center mx-auto bg-message h-[940px]`}
       >
-        <h3 className="text-[#FAFAFA] text-[32px] mt-7 mb-5">
+        <h3 className="text-[#FAFAFA] text-[54px] mt-[176px] mb-[50px]">
           Message from CEO
         </h3>
-        <div className="max-w-[72%] flex justify-start w-full">
+        <div className="max-w-[75%] flex justify-start w-full">
           <svg
             className="self-start ml-"
-            width="45"
-            height="40"
+            width="91"
+            height="64"
             viewBox="0 0 91 64"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -256,7 +253,7 @@ const Landing = () => {
           </svg>
         </div>
 
-        <p className="text-[#FAFAFA] text-[9px] leading-[18px] max-w-[60%]">
+        <p className="text-[#FAFAFA] text-[18px] leading-[28px] max-w-[60%]">
           Shewing met parties gravity husband sex pleased. On to no kind do next
           feel held walk. Last own loud and knew give gay four. Sentiments
           motionless or principles preference excellence am. Literature
@@ -264,7 +261,7 @@ const Landing = () => {
           Matter future lovers desire marked boy use. Chamber reached do he
           nothing be.
         </p>
-        <p className="text-[#FAFAFA] text-[9px] leading-[18px] max-w-[60%] mt-5">
+        <p className="text-[#FAFAFA] text-[18px] leading-[28px] max-w-[60%] mt-[60px]">
           Do in laughter securing smallest sensible no mr hastened. As perhaps
           proceed in in brandon of limited unknown greatly. Distrusts fulfilled
           happiness unwilling as explained of difficult. No landlord of peculiar
@@ -274,10 +271,10 @@ const Landing = () => {
           am promotion in no departure abilities. Whatever landlord yourself at
           by pleasure of children be.
         </p>
-        <div className="max-w-[72%] flex justify-end w-full">
+        <div className="max-w-[75%] flex justify-end w-full">
           <svg
-            width="45"
-            height="40"
+            width="91"
+            height="64"
             viewBox="0 0 91 64"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -293,22 +290,22 @@ const Landing = () => {
         title="Contact Us"
         subTitle="Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed necessary."
       />
-      <div className="flex mt-8 max-w-[80%] mx-auto">
+      <div className="flex ml-[135px]">
         <div className="flex-[1] ">
-          <form action="" className="flex gap-5 flex-col">
+          <form className="flex gap-5 flex-col">
             <div
               ref={nameDiv}
-              className="relative py-1 px-2 rounded-[8px] bg-[#F9F9F9] border-none"
+              className="relative pl-[24px] pt-[20px] pb-[17px] rounded-[8px] bg-[#F9F9F9] border-none"
             >
               <p
                 ref={nameP}
-                className="absolute text-[10px] bg-white top-[-14px] text-[#6B6B6B] px-1 d-none"
+                className="absolute text-[10px] leading-[15px] bg-white top-[-8px] text-[#6B6B6B] px-1 d-none"
               >
-                name
+                Name
               </p>
               <input
                 ref={nameInput}
-                className="text-[12px] border-none outline-none bg-[#F9F9F9] text-[#313131] w-full"
+                className="text-[18px] border-none outline-none bg-[#F9F9F9] text-[#313131] w-full"
                 onFocus={(e) => {
                   handleFormInputFocus(e);
                 }}
@@ -322,17 +319,17 @@ const Landing = () => {
             </div>
             <div
               ref={emailDiv}
-              className="relative py-1 px-2 rounded-[8px] bg-[#F9F9F9] border-none"
+              className="relative pl-[24px] pt-[20px] pb-[17px] rounded-[8px] bg-[#F9F9F9] border-none"
             >
               <p
                 ref={emailP}
-                className="absolute text-[10px] bg-white top-[-14px] text-[#6B6B6B] px-1 d-none"
+                className="absolute text-[10px] leading-[15px] bg-white top-[-8px] text-[#6B6B6B] px-1 d-none"
               >
-                email
+                Email
               </p>
               <input
                 ref={emailInput}
-                className="text-[12px] border-none outline-none bg-[#F9F9F9] text-[#313131] w-full"
+                className="text-[18px] border-none outline-none bg-[#F9F9F9] text-[#313131] w-full"
                 onFocus={(e) => {
                   handleFormInputFocus(e);
                 }}
@@ -346,13 +343,13 @@ const Landing = () => {
             </div>
             <div
               ref={subjectDiv}
-              className="relative py-1 px-2 rounded-[8px] bg-[#F9F9F9] border-none"
+              className="relative pl-[24px] pt-[20px] pb-[17px] rounded-[8px] bg-[#F9F9F9] border-none"
             >
               <p
                 ref={subjectP}
-                className="absolute text-[10px] bg-white top-[-14px] text-[#6B6B6B] px-1 d-none"
+                className="absolute text-[10px] leading-[15px] bg-white top-[-8px] text-[#6B6B6B] px-1 d-none"
               >
-                subject
+                Subject
               </p>
               <input
                 ref={subjectInput}
@@ -362,7 +359,7 @@ const Landing = () => {
                 onBlur={(e) => {
                   handleFormInputBlur(e);
                 }}
-                className="text-[12px] border-none outline-none bg-[#F9F9F9] text-[#313131] w-full"
+                className="text-[18px] border-none outline-none bg-[#F9F9F9] text-[#313131] w-full"
                 type="text"
                 placeholder="Subject"
                 name="subject"
@@ -370,13 +367,13 @@ const Landing = () => {
             </div>
             <div
               ref={messageDiv}
-              className="relative py-1 px-2 rounded-[8px] bg-[#F9F9F9] border-none"
+              className="relative pl-[24px] pt-[20px] pb-[17px] rounded-[8px] bg-[#F9F9F9] border-none"
             >
               <p
                 ref={messageP}
-                className="absolute text-[10px] bg-white top-[-14px] text-[#6B6B6B] px-1 d-none"
+                className="absolute text-[10px] leading-[15px] bg-white top-[-8px] text-[#6B6B6B] px-1 d-none"
               >
-                message
+                Message
               </p>
               <input
                 ref={messageInput}
@@ -386,19 +383,19 @@ const Landing = () => {
                 onBlur={(e) => {
                   handleFormInputBlur(e);
                 }}
-                className="text-[12px] border-none outline-none bg-[#F9F9F9] text-[#313131] w-full"
+                className="text-[18px] border-none outline-none bg-[#F9F9F9] text-[#313131] w-full"
                 type="text"
                 placeholder="Message"
                 name="message"
               />
             </div>
-            <button className="relative btn-shadow mt-10 bg-[#18a7b9] rounded-[5px] rounded-tl-[40px] rounded-br-[40px] text-white text-[10px] pt-[5px] pb-[5px] pl-[40px] pr-[40px] cursor-pointer max-w-[60%]">
+            <button className="relative btn-shadow mt-20 bg-[#18a7b9] rounded-[5px] rounded-tl-[40px] rounded-br-[40px] text-white text-[17px] pt-[22px] pb-[22px] pl-[77px] pr-[77px] cursor-pointer max-w-[60%]">
               Send&nbsp;Message
             </button>
           </form>
         </div>
         <div className="flex-[1.5]">
-          <img className="w-[380px]" src={contactUs} alt="" />
+          <img className="w-[780px]" src={contactUs} alt="" />
         </div>
       </div>
       <Header
@@ -406,22 +403,22 @@ const Landing = () => {
         subTitle="Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed necessary."
       />
       <div className="flex max-w-[80%] mx-auto gap-10 mt-12">
-        <div className="flex-[1] blog-img1 h-[270px] w-full rounded-[10px] flex flex-col justify-end">
-          <p className="text-white text-center text-[12px] font-bold">
+        <div className="flex-[1] blog-img1 h-[467px] w-full rounded-[10px] flex flex-col justify-end">
+          <p className="text-white text-center mb-[22px] text-[27px] leading-[34px] font-bold">
             Unleash Your Creativity
           </p>
-          <p className="text-white text-center text-[8px] mb-8">
+          <p className="text-white text-center text-[16px] leading-[20px] mb-8">
             Nine for Mortal Men, doomed to die, One for
           </p>
         </div>
-        <div className="flex-[1] blog-img2 h-[270px] w-full rounded-[10px] flex flex-col justify-end">
-          <p className="text-white text-center text-[12px] font-bold">
+        <div className="flex-[1] blog-img2 h-[467px] w-full rounded-[10px] flex flex-col justify-end">
+          <p className="text-white text-center mb-[22px] text-[27px] leading-[34px] font-bold">
             Unleash Your Creativity
           </p>
-          <p className="text-white text-center text-[8px]">
+          <p className="text-white text-center text-[16px] leading-[20px]">
             Nine for Mortal Men, doomed to die, One for
           </p>
-          <button className="rounded-[5px] drop-shadow rounded-tl-[40px] rounded-br-[40px] text-[#ffffff] text-[10px] pt-[5px] pb-[5px] pl-[30px] pr-[30px] cursor-pointer border border-solid border-[#ffffff] max-w-[50%] mx-auto mt-2 mb-8">
+          <button className="rounded-[5px] drop-shadow rounded-tl-[40px] rounded-br-[40px] text-[#ffffff] text-[17px] leading-[20px] tracking-[-0.5px] pt-[22px] pb-[22px] pl-[55px] pr-[55px] cursor-pointer border border-solid border-[#ffffff] max-w-[50%] mx-auto mt-[32px] mb-[55px]">
             Read more
           </button>
         </div>
@@ -431,11 +428,11 @@ const Landing = () => {
         Newsletter"
         subTitle="Age sold some full like rich new. Amounted repeated as believed in confined juvenile."
       />
-      <button className="relative flex justify-center items-center gap-3 btn-shadow mt-10 bg-[#18a7b9] rounded-[5px] rounded-tl-[40px] rounded-br-[40px] text-white text-[8px] pt-[5px] pb-[5px] pl-[40px] pr-[40px] cursor-pointer max-w-[150px] mx-auto">
+      <button className="relative flex justify-center items-center gap-5 btn-shadow bg-[#18a7b9] rounded-[5px] rounded-tl-[40px] rounded-br-[40px] text-white text-[16px] leading-[20px] pt-[18px] pb-[18px] pl-[53px] pr-[53px] cursor-pointer mx-auto">
         SUBSCRIBE
         <svg
-          width="8"
-          height="7"
+          width="12"
+          height="11"
           viewBox="0 0 11 7"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -446,19 +443,19 @@ const Landing = () => {
           />
         </svg>
       </button>
-      <div className="flex max-w-[85%] mx-auto gap-8 mt-16">
+      <div className="flex max-w-[85%] mx-auto gap-[158px] mt-[156px]">
         <div className="flex flex-col flex-[1]">
-          <div className="text-[12px] font-semibold leading-[19px] text-[#18a7b9] tracking-[-0.06em] mb-2">
+          <div className="text-[25px] font-semibold leading-[38px] text-[#18a7b9] tracking-[-0.06em] mb-[30px]">
             CONSTRUCTION
           </div>
-          <p className="text-[#6B6B6B] text-[9px] leading-[16px]">
+          <p className="text-[#6B6B6B] text-[16px] leading-[28px]">
             You’ll find your next Home loan valu you prefer.
           </p>
-          <div className="flex gap-1 mt-5">
+          <div className="flex gap-4 mt-10">
             <svg
               className="cursor-pointer"
-              width="16"
-              height="16"
+              width="28"
+              height="28"
               viewBox="0 0 29 29"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -476,8 +473,8 @@ const Landing = () => {
             </svg>
             <svg
               className="cursor-pointer"
-              width="16"
-              height="16"
+              width="28"
+              height="28"
               viewBox="0 0 29 29"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -493,8 +490,8 @@ const Landing = () => {
             </svg>
             <svg
               className="cursor-pointer"
-              width="16"
-              height="16"
+              width="28"
+              height="28"
               viewBox="0 0 30 29"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -519,40 +516,40 @@ const Landing = () => {
           </div>
         </div>
         <div className="flex flex-col flex-[1]">
-          <p className="text-[#313131] text-[9px] font-bold leading-[16px] mb-3">
+          <p className="text-[#313131] text-[18px] font-bold leading-[27px] mb-10">
             Resources
           </p>
-          <p className="text-[#6B6B6B] text-[8px] leading-[16px]">Our Agents</p>
-          <p className="text-[#6B6B6B] text-[8px] leading-[16px]">
+          <p className="text-[#6B6B6B] text-[16px] mb-[18px] leading-[24px]">Our Agents</p>
+          <p className="text-[#6B6B6B] text-[16px] mb-[18px] leading-[24px]">
             Member Stories
           </p>
-          <p className="text-[#6B6B6B] text-[8px] leading-[16px]">Video</p>
-          <p className="text-[#6B6B6B] text-[8px] leading-[16px]">Free trial</p>
+          <p className="text-[#6B6B6B] text-[16px] mb-[18px] leading-[24px]">Video</p>
+          <p className="text-[#6B6B6B] text-[16px] leading-[24px]">Free trial</p>
         </div>
         <div className="flex flex-col flex-[1]">
-          <p className="text-[#313131] text-[9px] font-bold leading-[16px] mb-3">
+          <p className="text-[#313131] text-[18px] font-bold leading-[27px] mb-10">
             Company
           </p>
-          <p className="text-[#6B6B6B] text-[8px] leading-[16px]">
+          <p className="text-[#6B6B6B] text-[16px] mb-[21px] leading-[24px]">
             Patnerships
           </p>
-          <p className="text-[#6B6B6B] text-[8px] leading-[16px]">
+          <p className="text-[#6B6B6B] text-[16px] mb-[21px] leading-[24px]">
             Terms of use
           </p>
-          <p className="text-[#6B6B6B] text-[8px] leading-[16px]">Privacy</p>
-          <p className="text-[#6B6B6B] text-[8px] leading-[16px]">Sitemap</p>
+          <p className="text-[#6B6B6B] text-[16px] mb-[21px] leading-[24px]">Privacy</p>
+          <p className="text-[#6B6B6B] text-[16px] leading-[24px]">Sitemap</p>
         </div>
         <div className="flex flex-col flex-[1]">
-          <p className="text-[#313131] text-[9px] font-bold leading-[16px] mb-3">
+          <p className="text-[#313131] text-[18px] font-bold leading-[27px] mb-10">
             Get in touch
           </p>
-          <div className="flex items-center">
+          <div className="flex items-center gap-[50px] w-max bg-[#FAFAFA]">
             <input
               type="email"
               placeholder="Enter your mail"
-              className="text-[#6B6B6B] text-[8px] leading-[16px] border-none max-w-[80px] pl-1 py-[1px] outline-none"
+              className="text-[#6B6B6B] text-[10px] bg-[#FAFAFA] leading-[15px] border-none max-w-[80px] pl-3 py-3 outline-none"
             />
-            <button>
+            <button className="bg-[#FAFAFA] py-[14px] pr-1">
               <svg
                 width="11"
                 height="11"
@@ -571,7 +568,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <p className="text-[#6B6B6B] text-[6px] leading-[16px] mt-16 mb-4 text-center">
+      <p className="text-[#6B6B6B] text-[14px] leading-[21px] mt-[108px] mb-10 text-center">
         Copyright construction.com, All rights reserved.
       </p>
     </>

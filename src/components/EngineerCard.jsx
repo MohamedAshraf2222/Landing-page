@@ -3,11 +3,11 @@ import React from "react";
 const EngineerCard = ({ name, email, img }) => {
   return (
     <>
-      <div className="card-shadow rounded-[5px] flex justify-center items-center flex-col px-8 py-4" >
-        <div className="flex justify-between w-[120%] items-center">
+      <div className="card-shadow rounded-[5px] flex justify-center items-center flex-col w-[350px]" >
+        <div className="flex justify-between w-[80%] mt-[25px] items-center">
           <svg
             className="cursor-pointer"
-            width="14"
+            width="24"
             height="22"
             viewBox="0 0 24 22"
             fill="none"
@@ -25,7 +25,7 @@ const EngineerCard = ({ name, email, img }) => {
           <svg
             className="cursor-pointer"
             width="5"
-            height="12"
+            height="21"
             viewBox="0 0 5 22"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -50,11 +50,11 @@ const EngineerCard = ({ name, email, img }) => {
             />
           </svg>
         </div>
-        <img className="w-[70%] mt-2" src={img} alt="" />
-        <p className="text-[14px] text-[#313131] mt-3 leading-3">{name}</p>
-        <p className="text-[8px] text-[#6B6B6B]">Michigan, TX</p>
-        <p className="text-[10px] text-[#6B6B6B] leading-3 mt-4">989-653-2986</p>
-        <p className="text-[10px] text-[#18A7B9] leading-3 my-1">{email}</p>
+        <img className="w-[120px] h-[120px] mt-[20px]" src={img} alt="" />
+        <p className="text-[24px] text-[#313131] mt-[22px] leading-[36px]">{name}</p>
+        <p className="text-[12px] mt-[7px] text-[#6B6B6B] leading-[12px]">Michigan, TX</p>
+        <p className="text-[18px] text-[#6B6B6B] leading-[27px] mt-[47px]">989-653-2986</p>
+        <p className="text-[17px] text-[#18A7B9] leading-[25px] mt-2 mb-[60px]">{email}</p>
       </div>
     </>
   );
